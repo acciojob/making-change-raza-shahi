@@ -11,8 +11,7 @@ for (let i =0;i<4;i++){
     amount -= value * count;
   }
 }
-	return res;
-	
+	console.log(res);
 };
 
 // Do not the change the code below
