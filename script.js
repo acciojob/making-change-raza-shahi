@@ -1,5 +1,18 @@
 const makeChange = (c) => {
   // your name here
+	let res = {};
+
+for (let i =0;i<4;i++){
+  let [coin, value] = c[i];
+  value = value * 100;
+  let count = Math.floor(amount / value);
+  if (count >= 0){
+    res[coin] = count;
+    amount -= value * count;
+  }
+}
+	return res;
+	
 };
 
 // Do not the change the code below
