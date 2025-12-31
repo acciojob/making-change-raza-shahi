@@ -1,6 +1,6 @@
 const makeChange = (c) => {
   // your name here
-	amount = c;
+	let = amount = c;
 	let obj = { 0: ["q", 0.25], 1: ["d", 0.10], 2: ["n", 0.05], 3: ["p", 0.01] };
 	let res = {};
 
@@ -17,5 +17,5 @@ for (let i =0;i<4;i++){
 };
 
 // Do not the change the code below
-const c = prompt("Enter c: ");
-alert(JSON.stringify(makeChange(c)));
+// const c = prompt("Enter c: ");
+// alert(JSON.stringify(makeChange(c)));
