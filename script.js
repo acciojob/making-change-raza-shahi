@@ -5,7 +5,7 @@ const makeChange = (c) => {
 	c = c%25;
 	change.d = Math.floor(c/10);
 	c = c%10;
-	chage.n = Math.floor(c/5);
+	change.n = Math.floor(c/5);
 	c = c%5;
 	change.p = c;
 	return change;
